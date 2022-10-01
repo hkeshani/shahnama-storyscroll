@@ -13,8 +13,8 @@
     var minZoom = 2
     var maxZoom = 7
     var img = [
-      64000,
-      20275
+      6639,
+      8185
     ]
 
     // create the map
