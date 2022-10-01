@@ -2,7 +2,7 @@
   {"type":"Feature","properties":
     {"id":1,
     "chapter":"The Great Metropolis of the Mississippi Valley: \nA Topographical Survey Drawin in Perspective A.D. 1875 by Camille N. Dry",
-    "zoom":3,
+    "zoom":.5,
     "image":"img/pictorial-st-louis.png",
     "source-credit":"Source: Library of Congres",
     "source-link":"https://lccn.loc.gov/rc01001392",
