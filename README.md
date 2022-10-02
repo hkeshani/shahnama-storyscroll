@@ -20,7 +20,7 @@ Edit the map.geoson (https://github.com/hkeshani/shahnama-storyscroll/blob/maste
 
 
 ### Change the image
-#### Slice large image into tiles and upload
+#### Slice large-sized replacement image into tiles and upload
 
 In a Python programming environment, use the gdal2tiles.py script to create image tiles for your new image. Enter:
 gdal2tiles.py -l -p raster -z 0-5 -w none <image> <tilesdir>
