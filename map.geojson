@@ -11,7 +11,7 @@
   {"type":"Feature","properties":
     {"id":2,
     "chapter":"Chapter 2: Clouds",
-    "zoom":3,
+    "zoom":5,
     "image":"img/pictorial-st-louis-1832.png",
     "source-credit":"Source: Library of Congress",
     "source-link":"https://lccn.loc.gov/rc01001392",
