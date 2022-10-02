@@ -18,13 +18,15 @@ https://hkeshani.github.io/shahnama-storyscroll/
 ### Change content, image marker coordinates, and zoom level
 Edit the map.geoson (https://github.com/hkeshani/shahnama-storyscroll/blob/master/map.geojson?short_path=12daef8) file
 
-### Slice large image into tiles and upload
 
-In a Python programming environment, use the gdal2tiles.py Enter:
+### Change the image
+#### Slice large image into tiles and upload
 
-(e.g. python gdal2tiles.py -l -p raster -z 0-8 -w none ../map.png ../tiles)
+In a Python programming environment, use the gdal2tiles.py script to create image tiles for your new image. Enter:
+gdal2tiles.py -l -p raster -z 0-5 -w none <image> <tilesdir>
+(e.g. gdal2tiles.py -l -p raster -z 0-8 -w none ../map.png ../tiles)
 
-Delete old tiles folder and upload new one.
+#### Delete old tiles folder and upload new one.
 ## Credits
 
 * Credit 1
