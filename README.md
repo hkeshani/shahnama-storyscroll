@@ -20,9 +20,10 @@ Edit the map.geoson  file (https://github.com/hkeshani/shahnama-storyscroll/blob
 
 
 ### Change the image
-#### Slice large-sized replacement image into tiles and upload
+#### Slice large-sized replacement image into tiles
 
-In a Python programming environment, use the gdal2tiles.py script to create image tiles for your new image. Enter:
+In a Python programming environment, use the gdal2tiles.py script to create image tiles for your replacement image that are stored in a folder on your pc called "tiles". 
+Enter:
 gdal2tiles.py -l -p raster -z 0-5 -w none <image> <tilesdir>
 (e.g. gdal2tiles.py -l -p raster -z 0-8 -w none ../map.png ../tiles)
 
