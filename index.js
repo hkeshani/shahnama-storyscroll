@@ -43,6 +43,7 @@
     }).addTo(map)
 */
     // the tile layer containing the image generated with gdal2tiles --leaflet ...
+    // Look into line 49
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
       noWrap: true,
       attribution: '<a href="<https://www.loc.gov/resource/g3200.mf000070/>"Library of Congress</a>'
