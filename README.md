@@ -16,7 +16,7 @@ https://hkeshani.github.io/shahnama-storyscroll/
 ## Instructions
 
 ### Change content, image marker coordinates, and zoom level
-Edit the map.geoson  file. (https://github.com/hkeshani/shahnama-storyscroll/blob/master/map.geojson?short_path=12daef8)
+Edit the map.geoson  file (https://github.com/hkeshani/shahnama-storyscroll/blob/master/map.geojson?short_path=12daef8).
 
 
 ### Change the image
