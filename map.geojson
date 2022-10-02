@@ -1,22 +1,22 @@
 {"type":"FeatureCollection", "features":[
   {"type":"Feature","properties":
     {"id":1,
-    "chapter":"The Great Metropolis of the Mississippi Valley: \nA Topographical Survey Drawin in Perspective A.D. 1875 by Camille N. Dry",
+    "chapter":"Chapter 1 Title",
     "zoom":1,
     "image":"img/pictorial-st-louis.png",
     "source-credit":"Source: Library of Congres",
     "source-link":"https://lccn.loc.gov/rc01001392",
     "description":"\"A popular cartographic form used to depict U.S. and Canadian cities and towns during the late nineteenth and early twentieth centuries was the panoramic map. Known also as bird's-eye views, perspective maps, panoramas, and aero views, panoramic maps are nonphotographic representations of cities, portrayed as if viewed from above at an oblique angle. Although not generally drawn to scale, they show street patterns, individual buildings, and major landscape features in perspective.\" (Hebert & Dempsey)"},
-    "geometry":{"type":"Point","coordinates":[2810,3040]}},
+    "geometry":{"type":"Point","coordinates":[3319,4092]}},
   {"type":"Feature","properties":
     {"id":2,
-    "chapter":"From the Preface",
+    "chapter":"Chapter 2 Title",
     "zoom":2,
     "image":"img/pictorial-st-louis-1832.png",
     "source-credit":"Source: Library of Congress",
     "source-link":"https://lccn.loc.gov/rc01001392",
     "description":"\"The preliminary drawings for this work were made early in the spring of 1874. After a careful consideration of the subject, it was determined to locate the point of view so that the city would be seen from the southeast, believing that to be the most advantageous in all respects. Accordingly, the point of site was established on the Illinois side of the river, looking to the northwest, and at sufficient altitude to overlook the roofs of ordinary houses into the streets. A careful perspective, which required a surface of three hundred square feet, was then erected from a correct survey of the city, extending northward from Arsenal Island...\""},
-    "geometry":{"type":"Point","coordinates":[10000,19000]}},
+    "geometry":{"type":"Point","coordinates":[1385,1360]}},
   {"type":"Feature","properties":
     {"id":3,
     "chapter":"From the Preface (cont'd)",
