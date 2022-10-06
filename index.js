@@ -104,7 +104,7 @@
 
         var i;
         var areaTop = -100;
-        var areaBottom = -100;
+        var areaBottom = 0;
 
         // Calculating total height of blocks above active
         for (i = 1; i < feature.properties['id']; i++) {
