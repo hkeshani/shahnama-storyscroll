@@ -32,8 +32,8 @@
     var rc = new L.RasterCoords(map, img)
 
     // set the view on a marker ...
-    map.setView(rc.unproject([4900, 3015]), 1)
-
+    //map.setView(rc.unproject([4900, 3015]), 1)
+/*
     // add layer control object
     L.control.layers({}, {
       //'Polygon': layerPolygon(map, rc),
@@ -41,7 +41,7 @@
       'Bounds': layerBounds(map, rc, img),
       //'Info': layerGeo(map, rc)
     }).addTo(map)
-
+*/
     // the tile layer containing the image generated with gdal2tiles --leaflet ...
     // Look into line 49
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
