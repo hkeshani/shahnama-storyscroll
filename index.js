@@ -103,8 +103,8 @@
         $('#contents').append(container);
 
         var i;
-        var areaTop = -200;
-        var areaBottom = 0;
+        var areaTop = -100;
+        var areaBottom = -100;
 
         // Calculating total height of blocks above active
         for (i = 1; i < feature.properties['id']; i++) {
