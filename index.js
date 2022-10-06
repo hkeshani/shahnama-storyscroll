@@ -10,8 +10,8 @@
   });
 
   function init (mapid) {
-    var minZoom = 1
-    var maxZoom = 5
+    var minZoom = 2
+    var maxZoom = 4
     var img = [
       6639,
       8185
@@ -21,7 +21,7 @@
     var map = L.map(mapid, {
       //added from storymap
       //center: [0, 0],
-      //zoom: 5,
+      //zoom: 3,
       //scrollWheelZoom: false,
       //
       minZoom: minZoom,
