@@ -1,7 +1,7 @@
 {"type":"FeatureCollection", "features":[
   {"type":"Feature","properties":
     {"id":1,
-    "chapter":"Chapter 1: The Folio",
+    "chapter":"The Folio",
     "zoom":1,
     "image":"img/pictorial-st-louis.png",
     "source-credit":"Source: Library of Congres",
