@@ -29,7 +29,7 @@
   {"type":"Feature","properties":
     {"id":4,
     "chapter":"Chapter 4: Bird",
-    "zoom":2,
+    "zoom":3,
     "image":"img/pictorial-st-louis-insane-asylum-03.png",
     "source-credit":"Source: Eric Erickson via Ancestry.com",
     "source-link":"http://rootsweb.ancestry.com/~asylums/stlouis_mo/index.html",
@@ -38,7 +38,7 @@
   {"type":"Feature","properties":
     {"id":5,
     "chapter":"Chapter 5: Flags & Standards",
-    "zoom":3,
+    "zoom":4,
     "image":"img/pictorial-st-louis-cemetery.png",
     "source-credit":"Source: Library of Congress",
     "source-link":"https://lccn.loc.gov/2012586260",
@@ -47,7 +47,7 @@
   {"type":"Feature","properties":
     {"id":6,
     "chapter":"Chapter 6: Flowers",
-    "zoom":4,
+    "zoom":1,
     "image":"img/pictorial-st-louis-key.png",
     "source-credit":"Source: Library of Congress",
     "source-link":"https://lccn.loc.gov/rc01001392",
