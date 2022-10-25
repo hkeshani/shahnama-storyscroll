@@ -34,7 +34,7 @@
     "source-credit":"Source: Eric Erickson via Ancestry.com",
     "source-link":"http://rootsweb.ancestry.com/~asylums/stlouis_mo/index.html",
     "description":"\"...and from the Insane Asylum on the southwest... \""},
-    "geometry":{"type":"Point","coordinates":[5225,1185]}},
+    "geometry":{"type":"Point","coordinates":[1225,1185]}},
   {"type":"Feature","properties":
     {"id":5,
     "chapter":"Chapter 5: Flags & Standards",
@@ -43,7 +43,7 @@
     "source-credit":"Source: Library of Congress",
     "source-link":"https://lccn.loc.gov/2012586260",
     "description":"\"...to the Cemeteries on the northwest. Every foot of the vast territory within these limits has been carefully examined and topographically drawn in perspective, by Mr. C. N. Dry and his assistants, and the faithfulness and accuracy with which this work has been done an examination of the pages will attest. Absolute truth and accuracy in the representation of the territory has been the standard and in no cases have additions or alterations been made unless the same were actually in course of construction. In a few cases, important public and private edifices that are not yet finished are shown completed, and as they will appear when done. All the buildings within the limits of the survey in July, 1875, are shown; and a very large number of those executed or commenced since that date have been also introduced, the pages having been constantly corrected up to the last possible moment before publication.\""},
-    "geometry":{"type":"Point","coordinates":[5030,2150]}},
+    "geometry":{"type":"Point","coordinates":[3030,2150]}},
   {"type":"Feature","properties":
     {"id":6,
     "chapter":"Chapter 6: Flowers",
@@ -52,5 +52,5 @@
     "source-credit":"Source: Library of Congress",
     "source-link":"https://lccn.loc.gov/rc01001392",
     "description":"\"In dividing the work into pages, it will be seen that in, cases where a building is but partially drawn on one page, it is given complete on the adjoining page. In view of the magnitude of the work, the originality of the idea, and the difficulties encountered in carrying it out, it is hoped that if any mistakes or errors have crept into the plates or pages, they will be looked upon with a lenient eye by an indulgent public.\" (Dry & Compton)"},
-    "geometry":{"type":"Point","coordinates":[3945,2920]}}
+    "geometry":{"type":"Point","coordinates":[3245,2920]}}
     ]}
