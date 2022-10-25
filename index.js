@@ -20,9 +20,9 @@
     // create the map
     var map = L.map(mapid, {
       //added from storymap
-      center: [2466, 3513],
-      zoom: 1,
-      scrollWheelZoom: false,
+      //center: [2466, 3513],
+      //zoom: 1,
+      //scrollWheelZoom: false,
       //
       minZoom: minZoom,
       maxZoom: maxZoom
