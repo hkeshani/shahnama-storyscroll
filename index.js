@@ -32,7 +32,7 @@
     var rc = new L.RasterCoords(map, img)
 
     // set the view on a marker ...
-    map.setView(rc.unproject([2466, 3513]), 0)
+    map.setView(rc.unproject([2466, 3513]), 1)
 /*
     // add layer control object
     L.control.layers({}, {
