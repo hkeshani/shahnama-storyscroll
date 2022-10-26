@@ -40,7 +40,7 @@ body {
 }
 
 #contents .space-at-the-bottom {
-    height: 130px;
+    height: 0px;
     margin: 0px;
     text-align: center;
     padding-top: 0px;
