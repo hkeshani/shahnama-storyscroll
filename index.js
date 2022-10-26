@@ -46,7 +46,7 @@
     // Look into line 49
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
       noWrap: true,
-      attribution: '<a href="<https://www.loc.gov/resource/g3200.mf000070/>"Library of Congress</a>'
+    // attribution: '<a href="<https://www.loc.gov/resource/g3200.mf000070/>"Library of Congress</a>'
     }).addTo(map)
 
   $.getJSON('map.geojson', function(data) {
