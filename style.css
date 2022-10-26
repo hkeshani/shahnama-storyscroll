@@ -123,6 +123,7 @@ h3 {
     font-size: 12pt;
     padding: 20px;
     white-space: pre-line;
+    line-height: 140%;
 }
 
 .inFocus {
