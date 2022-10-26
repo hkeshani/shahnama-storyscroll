@@ -103,7 +103,7 @@
         $('#contents').append(container);
 
         var i;
-        var areaTop = -100;
+        var areaTop = 0;
         var areaBottom = 0;
 
         // Calculating total height of blocks above active
