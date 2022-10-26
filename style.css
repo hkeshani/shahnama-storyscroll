@@ -122,6 +122,7 @@ h3 {
     text-align: left;
     font-size: 11pt;
     padding: 20px;
+    white-space: pre-line;
 }
 
 .inFocus {
