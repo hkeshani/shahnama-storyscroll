@@ -118,9 +118,9 @@ h3 {
 }
 
 .description {
-    margin: 20px;
+    margin: 10px; /*20px*/
     text-align: left;
-    font-size: 11pt;
+    font-size: 12pt;
     padding: 20px;
     white-space: pre-line;
 }
