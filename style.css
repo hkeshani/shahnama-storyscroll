@@ -35,21 +35,21 @@ body {
 }
 
 #contents .space-at-the-top {
-    height: 0px;
+    height: 0px; /*30px*/
     margin: 0px;
 }
 
 #contents .space-at-the-bottom {
     height: 0px;
-    margin: 0px;
+    margin: 0px; /*70px check*/
     text-align: center;
-    padding-top: 0px;
+    padding-top: 0px; /*130px check*/
 }
 
 #chapter {
     position: absolute;
     z-index: 999;
-    margin: 10px;
+    margin: 0px; /*10px*/
     display: block;
     text-align: center;
     color: #fff;
