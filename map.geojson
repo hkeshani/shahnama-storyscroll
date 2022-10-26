@@ -6,7 +6,7 @@
     "image":"img/pictorial-st-louis.png",
     "source-credit":"Source: Library of Congres",
     "source-link":"https://lccn.loc.gov/rc01001392",
-    "description":"A popular cartographic form used to depict U.S. and Canadian cities and towns during the late nineteenth and early twentieth centuries was the panoramic map. Known also as bird's-eye views, perspective maps, panoramas, and aero views, panoramic maps are nonphotographic representations of cities, portrayed as if viewed from above at an oblique angle. Although not generally drawn to scale, they show street patterns, individual buildings, and major landscape features in perspective. <br> \n (Hebert & Dempsey)"},
+    "description":"A popular cartographic form used to depict U.S. and Canadian cities and towns during the late nineteenth and early twentieth centuries was the panoramic map. Known also as bird's-eye views, perspective maps, panoramas, and aero views, panoramic maps are nonphotographic representations of cities, portrayed as if viewed from above at an oblique angle. Although not generally drawn to scale, they show street patterns, individual buildings, and major landscape features in perspective."+"<br>"+"(Hebert & Dempsey)"},
     "geometry":{"type":"Point","coordinates":[3319,4092]}},
   {"type":"Feature","properties":
     {"id":2,
