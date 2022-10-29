@@ -35,15 +35,15 @@ body {
 }
 
 #contents .space-at-the-top {
-    height: 0px; /*30px*/
+    height: 30px; /*30px*/
     margin: 0px;
 }
 
 #contents .space-at-the-bottom {
-    height: 0px;
-    margin: 0px; /*70px check*/
+    height: 130px; /**/
+    margin: 0px; 
     text-align: center;
-    padding-top: 0px; /*130px check*/
+    padding-top: 70px; /**/
 }
 
 #chapter {
@@ -67,14 +67,14 @@ body {
     padding: 0px;
 }
 
-h3 {
+h2 {/*was h3*/
     margin-bottom: 0px;
 }
 
 .image-container {
     /* margin + padding = imageContainerMargin in script.js */
     /* Important for scrolling! */
-    margin: 20px 0 0 0;/*50px 0 0 0*/
+    margin: 50px 0 0 0;/**/
     padding: 20px 0 0 0;
     text-align: center;
 }
@@ -118,7 +118,7 @@ h3 {
 }
 
 .description {
-    margin: 10px; /*20px*/
+    margin: 20px; /**/
     text-align: left;
     font-size: 12pt;
     padding: 20px;
