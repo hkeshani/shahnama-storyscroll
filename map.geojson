@@ -3,9 +3,9 @@
     {"id":1,
     "chapter":"Cite This",
     "zoom":1,
-    "image":"",
+/*  "image":"",
     "source-credit":"",
-    "source-link":"",
+    "source-link":"", */
     "description":"<LAST NAME>, <FIRST NAME> (Researcher, Scriptwriter, Storyboarder, Audio Editor, Image Editor) and Hussein Keshani (Coder). “Ibrahim Sultan hunting” In Ibrahim Sultan's Shahnama: A Digital Art History Student Project, November 30, 2022. https://hkeshani.github.io/darc/akbarnama/akbarnama71.html."},
     "geometry":{"type":"Point","coordinates":[3319,4092]}},
   {"type":"Feature","properties":
