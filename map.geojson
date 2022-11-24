@@ -52,5 +52,14 @@
     "source-credit":"Source: Library of Congress",
     "source-link":"https://lccn.loc.gov/rc01001392",
     "description":"\"In dividing the work into pages, it will be seen that in, cases where a building is but partially drawn on one page, it is given complete on the adjoining page. In view of the magnitude of the work, the originality of the idea, and the difficulties encountered in carrying it out, it is hoped that if any mistakes or errors have crept into the plates or pages, they will be looked upon with a lenient eye by an indulgent public.\" (Dry & Compton)"},
+    "geometry":{"type":"Point","coordinates":[3245,2920]}},
+  {"type":"Feature","properties":
+    {"id":7,
+    "chapter":"Chapter 7: Flowers",
+    "zoom":1,
+    "image":"img/pictorial-st-louis-key.png",
+    "source-credit":"Source: Library of Congress",
+    "source-link":"https://lccn.loc.gov/rc01001392",
+    "description":"\"In dividing the work into pages, it will be seen that in, cases where a building is but partially drawn on one page, it is given complete on the adjoining page. In view of the magnitude of the work, the originality of the idea, and the difficulties encountered in carrying it out, it is hoped that if any mistakes or errors have crept into the plates or pages, they will be looked upon with a lenient eye by an indulgent public.\" (Dry & Compton)"},
     "geometry":{"type":"Point","coordinates":[3245,2920]}}
     ]}
