@@ -53,4 +53,31 @@
     "source-link":"https://lccn.loc.gov/rc01001392",
     "description":"\"In dividing the work into pages, it will be seen that in, cases where a building is but partially drawn on one page, it is given complete on the adjoining page. In view of the magnitude of the work, the originality of the idea, and the difficulties encountered in carrying it out, it is hoped that if any mistakes or errors have crept into the plates or pages, they will be looked upon with a lenient eye by an indulgent public.\" (Dry & Compton)"},
     "geometry":{"type":"Point","coordinates":[3245,2920]}}
-    ]}
+    ]},
+  {"type":"Feature","properties":
+    {"id":7,
+    "chapter":"Ch. 7",
+    "zoom":1,
+    "image":"",
+    "source-credit":"Source: Library of Congress",
+    "source-link":"https://lccn.loc.gov/rc01001392",
+    "description":"<LAST NAME>, <FIRST NAME> or ARTH 370 Student (Researcher, Scriptwriter, Storyboarder, Audio Editor, Image Editor) and Hussein Keshani (Coder). “Ibrahim Sultan hunting” In Ibrahim Sultan's Shahnama: A Digital Art History Student Project, edited by Hussein Keshani, November 30, 2022."},
+    "geometry":{"type":"Point","coordinates":[0,0]}},
+  {"type":"Feature","properties":
+    {"id":8,
+    "chapter":"References",
+    "zoom":1,
+    "image":"",
+    "source-credit":"Source: Library of Congress",
+    "source-link":"https://lccn.loc.gov/rc01001392",
+    "description":"<LAST NAME>, <FIRST NAME> or ARTH 370 Student (Researcher, Scriptwriter, Storyboarder, Audio Editor, Image Editor) and Hussein Keshani (Coder). “Ibrahim Sultan hunting” In Ibrahim Sultan's Shahnama: A Digital Art History Student Project, edited by Hussein Keshani, November 30, 2022."},
+    "geometry":{"type":"Point","coordinates":[0,0]}},
+  {"type":"Feature","properties":
+    {"id":9,
+    "chapter":"Cite This",
+    "zoom":1,
+    "image":"",
+    "source-credit":"Source: Library of Congress",
+    "source-link":"https://lccn.loc.gov/rc01001392",
+    "description":"Keshani, Hussein (Researcher, Scriptwriter, Storyboarder, Audio Editor, Image Editor) and Hussein Keshani (Coder). “Ibrahim Sultan hunting” In Ibrahim Sultan's Shahnama: A Digital Art History Student Project, edited by Hussein Keshani, November 30, 2022."},
+    "geometry":{"type":"Point","coordinates":[0,0]}},
