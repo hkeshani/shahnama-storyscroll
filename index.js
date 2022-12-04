@@ -114,7 +114,8 @@
         areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
 
         $('div#contents').scroll(function() {
-          if ($(this).scrollTop() >= areaTop && $(this).scrollTop() < areaBottom) {
+          if ($(this).
+              () >= areaTop && $(this).scrollTop() < areaBottom) {
             $('.image-container').removeClass("inFocus").addClass("outFocus");
             $('div#container' + feature.properties['id']).addClass("inFocus").removeClass("outFocus");
 
@@ -128,7 +129,7 @@
 
         // Make markers clickable
         layer.on('click', function() {
-          $("div#contents").animate({scrollTop: areaTop + "px"});
+          $("div#contents").animate({scrollTop: (areaTop+100) + "px"});
         });
 
       })(layer, feature.properties);
