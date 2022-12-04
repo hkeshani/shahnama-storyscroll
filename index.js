@@ -129,7 +129,7 @@
 
         // Make markers clickable
         layer.on('click', function() {
-          $("div#contents").animate({scrollTop: (areaTop+100) + "px"});
+          $("div#contents").animate({scrollTop: areaTop + "px"});
         });
 
       })(layer, feature.properties);
