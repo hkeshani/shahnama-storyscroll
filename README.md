@@ -4,7 +4,7 @@ Mobile-friendly, interactive digital image interpretation created using:
 
 * Digital Bodleian Bodleian Library MS. Ouseley Add. 176 fol.3b (https://www.loc.gov/resource/g4164sm.gpm00001/?sp=1](https://digital.bodleian.ox.ac.uk/objects/bcbfd832-086b-4874-80f8-87500e0de704/)
 
-* Jared Nielson's Pictorial St. Louis (https://github.com/nielsenjared/pictorial-st-louis/blob/master/) (http://jarednielsen.com/pictorial-st-louis/index.html)
+* Jared Nielson's Pictorial St. Louis (https://github.com/nielsenjared/pictorial-st-louis) (http://jarednielsen.com/pictorial-st-louis/index.html)
 * Leaflet (http://leafletjs.com/)
 * leaflet-rastercoords (https://commenthol.github.io/leaflet-rastercoords/)
 * gdal2tiles-leaflet (https://github.com/commenthol/gdal2tiles-leaflet)
