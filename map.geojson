@@ -1,83 +1,122 @@
 {"type":"FeatureCollection", "features":[
   {"type":"Feature","properties":
     {"id":1,
-    "chapter":"Cite This",
+    "chapter":"Bodleian Library MS. Ousley Add. 176 fol. 337b",
     "zoom":1,
-    "image":"",
-    "source-credit":"Source: Library of Congress",
-    "source-link":"https://lccn.loc.gov/rc01001392",
-    "description":"<LAST NAME>, <FIRST NAME> or ARTH 370 Student (Researcher, Scriptwriter, Storyboarder, Audio Editor, Image Editor) and Hussein Keshani (Coder). “Ibrahim Sultan hunting” In Ibrahim Sultan's Shahnama: A Digital Art History Student Project, edited by Hussein Keshani, November 30, 2022."},
+    "image":"img/The Shahnama.png",
+    "source-credit":"Oxford, Bodleian Library MS. Ouseley Add. 176:",
+    "source-link":"https://digital.bodleian.ox.ac.uk/objects/bcbfd832-086b-4874-80f8-87500e0de704/surfaces/7c98adf0-d0e2-444a-aa57-62b05764d036/",
+    "description":"This illustration or painting is from The Shahnama, Book of Kings, made by Ferdowsi Tousi, a great Persian poet and one of the greatest Persian poets who ever walked on earth. Ferdowsi Tousi is the creator of the great epic poem, one of the longest epic poems in the world named The Shahnameh or Book of Kings. 
+The Shahnameh, is in term a story book where it entails the history and mythical past of the Iran, from the beginning of civilization until the Islamic conquest of Iran in the 7th century. 
+The Shahnameh, is originally written in Persian language, but many scholars have translated The Shahnameh into English language translation with different interpretation. The Shahnameh produced knowledge about cultural values, history, and background on Zoroastrianism. An ancient religion and one of the oldest religions that was founded by Zoroaster. According to the Shahnameh, Ferdowsi website, ‘’In short: A study of the Shahnameh gives us a literary excuse for exploring how culture moves across time and space, becoming part of the global common heritage.’’ (Ferdowsi, 2016). The Shahnameh or Book of Kings includes 990 chapters, and 62 stories. Isn’t that interesting? This document will explain the summary and the meaning of the illustration of The Shahnameh. 
+"},
     "geometry":{"type":"Point","coordinates":[0,0]}},
   {"type":"Feature","properties":
     {"id":2,
-    "chapter":"Introduction",
-    "zoom":1,
-    "image":"img/pictorial-st-louis-1832.png",
-    "source-credit":"Source: Library of Congress",
-    "source-link":"https://lccn.loc.gov/rc01001392",
-    "description":"The preliminary drawings for this work were made early in the spring of 1874.\n\n After a careful consideration of the subject, it was determined to locate the point of view so that the city would be seen from the southeast, believing that to be the most advantageous in all respects. Accordingly, the point of site was established on the Illinois side of the river, looking to the northwest, and at sufficient altitude to overlook the roofs of ordinary houses into the streets. A careful perspective, which required a surface of three hundred square feet, was then erected from a correct survey of the city, extending northward from Arsenal Island..."},
-    "geometry":{"type":"Point","coordinates":[4932,0]}},
+    "chapter":"Chapter 2: Bahram Gur Hunts in the Company of Azada Story",
+    "zoom":2,
+    "image":"img/337b-cropped.jpg",
+    "source-credit":"Oxford, Bodleian Library MS. Ouseley Add. 176:",
+    "source-link":"https://digital.bodleian.ox.ac.uk/objects/bcbfd832-086b-4874-80f8-87500e0de704/surfaces/8bb3b9d2-eb03-42e7-b2a0-0ae26adf2109/",
+    "description":"Bahram Gur hunts in the company of Azada, 337b, Vol VI, Pg 382-83. This shows Bahram Gur as a young prince hunting while being accompanied by Azada, a slave girl who was a musician as we see that Azada is holding a harp while Bahram Gur hunts the Gazelle with bow and arrow, and ‘his heart’s delight and desire.’ Azada challenged Bahram Gur to prove his abilities as a hunter and turn the male gazelle into a female, and a female one into male, then combining them together by pinning the foot and ear of another Gazelle by using his bow to fire and hunt them. Bahram Gur then shot two successful shots from his arrow into the head of a female deer and hit the male deer with a double pointed arrow on his antlers and cut the antlers off. He then went for the third gazelle and scratched or hit the ear of that third gazelle, and when the third gazelle tried to scratch it by using her foot and raising it to scratch it, Bahram Gur pinned the foot and ear together of the Gazelle. An accusation was surrounding the prince’s skill, prowess, and fame because Azada reached his success and reputation because of demonic powers. A legitimate and honorific Persian ruler should be successful in hunt and indispensable as a Persian ruler, which the royal charisma demonstrated. Bahram Gur became angry and threw Azada from the camel and smashed her. 
+
+"},
+    "geometry":{"type":"Point","coordinates":[2705,680]}},
   {"type":"Feature","properties":
     {"id":3,
-    "chapter":"Chapter 3: Rock",
-    "zoom":4,
-    "image":"img/pictorial-st-louis-water-works.png",
-    "source-credit":"Source: StLouis-MO.gov",
-    "source-link":"https://www.stlouis-mo.gov/archive/neighborhood-histories-norbury-wayman/bissell/works4.htm  ",
-    "description":"\"...to the Water Works, a distance of about ten miles, on the river front;\""},
-    "geometry":{"type":"Point","coordinates":[3145,1680]}},
+    "chapter":"Chapter 3: The Harp in the hands of Azada ",
+    "zoom":2,
+    "image":"img/Harp.png",
+    "source-credit":"Encyoclepdia Britannica",
+    "source-link":"https://www.britannica.com/art/harp-musical-instrument",
+    "description":"In the image Bahram Gur hunts in the company of Azada, we see Azada holding an instrument what appears to be a Harp while accompanying Bahram Gur on hunting the Gazelle. Harp is known for being a classical instrument and usually associates with hunting. Bahram Gur is hunting the Gazelle while Azada is playing the Harp, does Azada plays the Harp to attract the Gazelle for an easier hunt? Or Azada plays the Harp to calm and relax Bahram Gur while hunting the Gazelle, as being a predator and a hunter involves thrill and adrenaline, but the Harp is considered a classical instrument that it is so calming, it can calm a person who hears it because of its sound. To back this up, movies portrays mermaid with enchanting voice that can calm anyone who hears it, and usually they associate it with Harp. 
+
+A history of Harp, the Harp instrument has evolved from what we see as an instrument, but in early 3000 BC, Harp is originally and derived from a bow. Therefore, the original form of a Harp is from a Bow and slowly evolved into what we see as a modern classical instrument called the Harp. And it is closely related to hunting, which we see that it makes sense that Azada is playing the Harp while Bahram Gur is hunting the Gazelle. 
+""},
+    "geometry":{"type":"Point","coordinates":[2485,4710]}},
   {"type":"Feature","properties":
     {"id":4,
-    "chapter":"Chapter 4: Bird",
+    "chapter":"Chapter 4: The Bow and Arrow, Weapon of Bahram Gur",
     "zoom":3,
-    "image":"img/pictorial-st-louis-insane-asylum-03.png",
-    "source-credit":"Source: Eric Erickson via Ancestry.com",
-    "source-link":"http://rootsweb.ancestry.com/~asylums/stlouis_mo/index.html",
-    "description":"\"...and from the Insane Asylum on the southwest... \""},
-    "geometry":{"type":"Point","coordinates":[1225,1185]}},
+    "image":"img/Bow.png",
+    "source-credit":"Encyoclepdia Britannica",
+    "source-link":"https://www.britannica.com/technology/bow-and-arrow",
+    "description":"We now focused on the weapon that Bahram Gur use in hunting the Gazelle, the Bow and Arrow. Earlier in the chapter, we talked about the Harp instrument that is being used by Azada and figured that it is associated with hunting and the bow, therefore relating to the weapon that we will talk now, the Bow and Arrow of Bahram Gur. Gazelle is an animal that is considered as a prey; however, it relies on its speed and is a very fast animal. Bow and Arrow is use for long range hunting and targets, if Bahram Gur uses short range weapons into hunting such as a sword or a spear, he will never catch and hunt the Gazelle as the only weapon of the Gazelles from the predators are their speed. 
+
+The bow is a weapon used in military and hunting in early times, it is made up of wood and a string that acts as an elastic that produces tension when being stretch and when released, produce a powerful force that if combined with an arrow, can easily injure, or kill anything. The arrow is made up of wood and a metal or stone on top that is sharpened and design to kill whatever it hits. 
+""},
+    "geometry":{"type":"Point","coordinates":[1893,4757]}},
   {"type":"Feature","properties":
     {"id":5,
-    "chapter":"Chapter 5: Flags & Standards",
+    "chapter":"Chapter 5: The Gazelle as a prey from the predator",
     "zoom":4,
-    "image":"img/pictorial-st-louis-cemetery.png",
-    "source-credit":"Source: Library of Congress",
-    "source-link":"https://lccn.loc.gov/2012586260",
-    "description":"\"...to the Cemeteries on the northwest. Every foot of the vast territory within these limits has been carefully examined and topographically drawn in perspective, by Mr. C. N. Dry and his assistants, and the faithfulness and accuracy with which this work has been done an examination of the pages will attest. Absolute truth and accuracy in the representation of the territory has been the standard and in no cases have additions or alterations been made unless the same were actually in course of construction. In a few cases, important public and private edifices that are not yet finished are shown completed, and as they will appear when done. All the buildings within the limits of the survey in July, 1875, are shown; and a very large number of those executed or commenced since that date have been also introduced, the pages having been constantly corrected up to the last possible moment before publication.\""},
-    "geometry":{"type":"Point","coordinates":[3030,2150]}},
+    "image":"img/Gazelle.png",
+    "source-credit":"Live Science",
+    "source-link":"https://www.livescience.com/27545-fun-facts-about-gazelles.html",
+    "description":"In the Bahram Gur Hunts in the Company of Azada image, we see Bahram Gur hunting the Gazelle with his bow and arrow. Azada challenged Bahram Gur to prove his skill as a hunter and hunt the Gazelle. In the image, Bahram Gur appears to hunt and killed the Gazelle with his bow and arrow as a weapon of choice. It is interesting that Bahram Gur used bow and arrow, a long-range weapon instead of a short range weapon such as a sword, a spear, or a shield. You know why? Because the Gazelle is known as a prey, however, the only weapon that the Gazelle have in order to protect themselves is their speed. Gazelle is one of the fastest animals that ever existed, it can run up to 60 mph, imagine that speed! A Gazelle can also leap or jump high like a spring. So, if Bahram Gur wants to prove himself and define his skill as a hunter, hunting a Gazelle would fit into that kind of category. A Gazelle can also be eaten, their meat is the same kind of meat as a deer, therefore as a hunter that Bahram Gur is, hunting a Gazelle proves his worth and skill as a hunter, in addition, can eat the Gazelle afterwards as what hunters usually do after hunting their prey. "},
+    "geometry":{"type":"Point","coordinates":[2280,4600]}},
   {"type":"Feature","properties":
     {"id":6,
-    "chapter":"Chapter 6: Flowers",
+    "chapter":"Chapter 6: The transportation and ride of Bahram Gur",
     "zoom":1,
-    "image":"img/pictorial-st-louis-key.png",
-    "source-credit":"Source: Library of Congress",
-    "source-link":"https://lccn.loc.gov/rc01001392",
-    "description":"\"In dividing the work into pages, it will be seen that in, cases where a building is but partially drawn on one page, it is given complete on the adjoining page. In view of the magnitude of the work, the originality of the idea, and the difficulties encountered in carrying it out, it is hoped that if any mistakes or errors have crept into the plates or pages, they will be looked upon with a lenient eye by an indulgent public.\" (Dry & Compton)"},
+    "image":"img/Camel.png",
+    "source-credit":"Live Science",
+    "source-link":"https://www.livescience.com/27503-camels.html",
+    "description":"In the image, Bahram Gur is seen riding a camel while hunting the Gazelle, but why? A common misconception is that a camel is slow, but why is Bahram Gur used a camel as mode of transportation especially when hunting? A camel can run up to the maximum speed of 40 mph or 67 kph. In addition, a common misconception is that the camel can and should be ridden in a hot climate country such as the middle east where hot summer and desserts are present. However, a camel can also survive and adopt to cold temperatures such as -29 degrees Celsius. The diet of a camel also is easy to maintain as they are not picky, they can eat whatever is possible, any grass or even cactuses will do. And lastly, a camel can grow up to 6 feet, giving the master or the owner an advantage of height to whatever they are hunting, so if Bahram Gur combines the bow and arrow, a long-range weapon and a camel that is 6 feet tall, the range and the visibility of Bahram Gur while hunting the Gazelle will be much easier to hunt that riding a horse. A possible reason why Bahram Gur chose a camel to hunt the Gazelle. 
+
+The setting of the book Shahnameh is also in the middle eastern, therefore the mode of transportation present in that location is a camel. 
+"},
     "geometry":{"type":"Point","coordinates":[3245,2920]}},
   {"type":"Feature","properties":
     {"id":7,
-    "chapter":"Chapter 7: Flowers",
+    "chapter":"Chapter 7: Persian Calligraphy ",
     "zoom":1,
-    "image":"img/pictorial-st-louis-key.png",
-    "source-credit":"Source: Library of Congress",
-    "source-link":"https://lccn.loc.gov/rc01001392",
-    "description":"\"In dividing the work into pages, it will be seen that in, cases where a building is but partially drawn on one page, it is given complete on the adjoining page. In view of the magnitude of the work, the originality of the idea, and the difficulties encountered in carrying it out, it is hoped that if any mistakes or errors have crept into the plates or pages, they will be looked upon with a lenient eye by an indulgent public.\" (Dry & Compton)"},
-    "geometry":{"type":"Point","coordinates":[3245,2920]}},
+    "image":"img/Calligraphy.png",
+    "source-credit":"Wikipedia",
+    "source-link":"https://en.wikipedia.org/wiki/Persian_calligraphy",
+    "description":"Can you see the beautiful calligraphy writing above the image of Bahram Gur Hunts in the Company of Azada? That writing or calligraphy is called Nasta’liq script, a beautiful Persian calligraphy writing. It is quite elegant that the strokes involves bold lines to produce an alphabet. 
+The Nasta’liq script or the Persian writing is used and involved in the Shahnameh, Book of Kings by Ferdowsi. In the book, you can see the writing depicting the image corresponding to it, describing and making the image more meaningful and elegant because of the stroke that the calligraphy writing provides. In addition, as time passes by, the Nasta’liq script continues to evolve into more contemporary modern style. There is also a new genre of writing the Nasta’liq script which transforms it into a cursive form of writing. The Nasta’liq script or the Persian calligraphy writing continues to evolve into a modern and contemporary way, and until now, is being used by artist as it is considered as a form of art. An elegant way of writing and describing certain things when being used, from what I observed the strokes have some similarities with writings from ancient China and Japan and uses bold lines and strokes to form an alphabet. 
+"},
+    "geometry":{"type":"Point","coordinates":[2737,2209]}},
   {"type":"Feature","properties":
     {"id":8,
-    "chapter":"Chapter 8: Flowers",
-    "zoom":1,
-    "image":"img/pictorial-st-louis-key.png",
-    "source-credit":"Source: Library of Congress",
-    "source-link":"https://lccn.loc.gov/rc01001392",
-    "description":"\"In dividing the work into pages, it will be seen that in, cases where a building is but partially drawn on one page, it is given complete on the adjoining page. In view of the magnitude of the work, the originality of the idea, and the difficulties encountered in carrying it out, it is hoped that if any mistakes or errors have crept into the plates or pages, they will be looked upon with a lenient eye by an indulgent public.\" (Dry & Compton)"},
-    "geometry":{"type":"Point","coordinates":[3245,2920]}},
+    "chapter":"Chapter 8: References",
+    "zoom":2,
+    "image":"",
+    "source-credit":"",
+    "source-link":"",
+    "description":"Oxford, Bodleian Library MS. Ouseley Add. 176: https://digital.bodleian.ox.ac.uk/objects/bcbfd832-086b-4874-80f8-87500e0de704/
+
+Cambridge, University of Cambride Digital Library. 
+https://cudl.lib.cam.ac.uk/view/MS-BODLEIAN-OUSELEY-ADD-00176/29
+
+Firdawsi. Firdausi's Shahnama [Vol. 1]. Translated by Arthur George Warner and Edmond Warner. vol. 1. 7 vols. London: Kegan Paul, Trench, Trubner & Co., 1905. http://archive.org/details/shahnama01firduoft.
+
+The Shahnama of Firdausi [Vol. 2]. Translated by Arthur George Warner and Edmond Warner. Vol. 2. 7 vols. London: Kegan Paul, Trench, Trubner & Co., 1906. http://archive.org/details/FirdausiShahnamaTrWarnerVol2.
+
+University of Cambridge. ‘’No.16 Bowl Showing Bahram Gur hunting with Azadeh.’’The Fitzwilliam Museum Cambridge. 2021. 
+https://shahnameh.fitzmuseum.cam.ac.uk/explore/objects/no-16-bowl-showing-bahram-gur-hunting-with-azadeh#:~:text=The%20young%20prince%20Bahram%20Gur%20is%20shown%20hunting,fine%20musician%20and%20%E2%80%98his%20heart%E2%80%99s%20delight%20and%20desire.%E2%80%99
+Britannica, T. Editors of Encyclopaedia. "Harp." Encyclopedia Britannica, December 29, 2020. 
+https://www.britannica.com/art/harp-musical-instrument.
+
+Britannica, T. Editors of Encyclopaedia. "Bow and arrow." Encyclopedia Britannica, July 19, 2019. https://www.britannica.com/technology/bow-and-arrow.
+
+Bradford, Alina. ‘’Gazelles: Facts & Pictures.’’ Live Science. July 21, 2014.
+Gazelles: Facts & Pictures | Live Science
+
+Bradford, Alina. ‘’Camels: Facts & Pictures.’’ Live Science. April 15, 2020. 
+Camels: Facts, Types & Pictures | Live Science
+
+Wikipedia contributors. (2022, November 11). Persian calligraphy. Wikipedia. https://en.wikipedia.org/wiki/Persian_calligraphy
+"},
+    "geometry":{"type":"Point","coordinates":[0,7026]}},
   {"type":"Feature","properties":
     {"id":9,
-    "chapter":"Cite This",
-    "zoom":1,
+    "chapter":"Chapter 9: How to Cite This",
+    "zoom":2,
     "image":"",
-    "source-credit":"Source: Library of Congress",
-    "source-link":"https://lccn.loc.gov/rc01001392",
-    "description":"<LAST NAME>, <FIRST NAME> or ARTH 370 Student (Researcher, Scriptwriter, Storyboarder, Audio Editor, Image Editor) and Hussein Keshani (Coder). “Ibrahim Sultan hunting” In Ibrahim Sultan's Shahnama: A Digital Art History Student Project, edited by Hussein Keshani, November 30, 2022."},
-    "geometry":{"type":"Point","coordinates":[0,0]}}
+    "source-credit":"",
+    "source-link":"",
+    "description":"<Vera, John Kim/ARTH 370 Student> (Researcher, Scriptwriter, Storyboarder, Audio Editor, Image Editor) and Hussein Keshani (Coder). “Bahram Gur hunts in the company of Azada.” In Firdausi’s Shahnama: A Digital Art History Student Project, edited by Hussein Keshani, November 30, 2022."},
+    "geometry":{"type":"Point","coordinates":[4932,7026]}}
     ]}
