@@ -11,7 +11,7 @@ body {
 
 #map {
     /*height: 100vh;*/
-    height: 400px;/*added*/
+    height: 300px;/*added*/
     width: 100vw;/*width: 70vw;*/    
     position: absolute;
     border-bottom: 3px solid orange;/*added*/
@@ -22,10 +22,10 @@ body {
 
 #narration {
     position: absolute;
-    top: 403px;/*added*/
+    top: 303px;/*added*/
     width: 100vw;/*added*/
     /*width: 30vw;*/
-    height: calc(100vh - 400px);/*added*/
+    height: calc(100vh - 300px);/*added*/
     /*height: 100vh;*/
     /*min-width: 300px;*/
     /*right: 0px;*/
@@ -60,7 +60,7 @@ body {
 #title {
     position: absolute;
     right: 0;
-    top: 403px;/*0px*/
+    top: 303px;/*0px*/
     background-color: white;
     width: 100vw;/*30vw*/
     /*min-width: 300px;*/
