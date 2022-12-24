@@ -26,6 +26,7 @@
 
   .leaflet-control-attribution {
     visibility: visible;
+    left: 0;
   }
 
 }
