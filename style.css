@@ -162,6 +162,6 @@ body {
 */
         
   .leaflet-control-container {
-      display: visible;
+      display: none;
   }
 }
