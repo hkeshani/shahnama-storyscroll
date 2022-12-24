@@ -154,12 +154,12 @@ body {
     opacity: 0.3;
     background-color: white;
 }
-
+/*
 @media only screen and (max-device-width: 480px) {
   ::-webkit-scrollbar {
       display: none;
   }
-
+*/
   .leaflet-control-container {
       display: visible;
   }
