@@ -25,7 +25,7 @@ body {
     top: 203px;/*added*/
     width: 100vw;/*added*/
     /*width: 30vw;*/
-    height: calc(100vh - 200px);/*added*/
+    height: calc(100vh - 203px);/*added*/
     /*height: 100vh;*/
     /*min-width: 300px;*/
     /*right: 0px;*/
@@ -51,7 +51,7 @@ body {
 
 #contents .space-at-the-bottom {
     height: 200px; /*px130*/
-    margin: 0px; 
+    margin: 0; 
     text-align: center;
     padding-top: 150px; /*70px*/
 }
@@ -106,8 +106,9 @@ body {
 
 .img-holder {
     margin: 0;
-    /*height: 200px;
-    max-height: 200px;*/
+    margin-bottom: 5px;
+    /*height: 200px;*/
+    max-height: 200px;
     width: 100%;
 }
 
@@ -130,6 +131,7 @@ body {
     display: block;
     text-align: center;
     font-size: 120%;
+    padding: 0 5px;
 }
 
 .source {
@@ -162,6 +164,6 @@ body {
 */
         
   .leaflet-control-container {
-      display: none;
+     visibility: hidden;
   }
 }
