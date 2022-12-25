@@ -99,9 +99,9 @@ body {
     margin-right: auto;
 
     /* Three lines that center vertically */
-    position: relative;
+    /*position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%);*/
 }
 
 .img-holder {
