@@ -99,16 +99,16 @@ body {
     margin-right: auto;
 
     /* Three lines that center vertically */
-    /*position: relative;
+    position: relative;
     top: 50%;
-    transform: translateY(-50%);*/
+    transform: translateY(-50%);
 }
 
 .img-holder {
     margin: 0;
     margin-bottom: 5px;
-    /*height: 200px;*/
-    /*max-height: 200px;*/
+    height: 200px;
+    max-height: 200px;
     width: 100%;
 }
 
