@@ -7,7 +7,7 @@
 
   $('div#contents').scroll(function() {
     scrollPosition = $(this).scrollTop();
-    $('div#title').css({'opacity':( 100-scroll )/100})
+    $('.title-text').css({'opacity':( 100-scroll )/100})
   });
 
   function init (mapid) {
