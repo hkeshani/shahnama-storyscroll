@@ -11,10 +11,10 @@ body {
 
 #map {
     /*height: 100vh;*/
-    height: 35vh;/*added*/
+    height: 300px;/*added*/
     width: 100vw;/*width: 70vw;*/    
     position: absolute;
-    /*border-bottom: 3px solid orange;*//*added*/
+    border-bottom: 3px solid orange;/*added*/
     top: 0; /*added*/
     left: 0;
     z-index: 1;
@@ -22,10 +22,10 @@ body {
 
 #narration {
     position: absolute;
-    top: 35vh;/*added*/
+    top: 300px;/*added*/
     width: 100vw;/*added*/
     /*width: 30vw;*/
-    height: 65vh/*calc(100vh - 203px);*//*added*/
+    height: calc(100vh - 303px);/*added*/
     /*height: 100vh;*/
     /*min-width: 300px;*/
     /*right: 0px;*/
@@ -50,7 +50,7 @@ body {
 }
 
 #contents .space-at-the-bottom {
-    height: 200px; /*px130*/
+    height: 300px; /*px130*/
     margin: 0; 
     text-align: center;
     padding-top: 150px; /*70px*/
@@ -60,7 +60,7 @@ body {
 #title {
     position: absolute;
     right: 0;
-    top: 203px;/*0px*/
+    top: 303px;/*0px*/
     background-color: white;
     width: 100vw;/*30vw*/
     /*min-width: 300px;*/
@@ -107,8 +107,8 @@ body {
 .img-holder {
     margin: 0;
     margin-bottom: 5px;
-    height: 200px;
-    max-height: 200px;
+    height: 300px;
+    max-height: 300px;
     width: 100%;
 }
 
