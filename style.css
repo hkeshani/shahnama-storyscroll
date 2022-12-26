@@ -22,7 +22,7 @@ body {
 
 #narration {
     position: absolute;
-    top: 300px;/*added*/
+    top: 303px;/*added*/
     width: 100vw;/*added*/
     /*width: 30vw;*/
     height: calc(100vh - 303px);/*added*/
