@@ -57,7 +57,7 @@ body {
 }
 
 
-#title {
+.title-text {
     position: absolute;
     right: 0;
     top: 303px;/*0px*/
@@ -70,6 +70,7 @@ body {
     /*visibility: hidden;*/
     /*font-weight: bold;*/
     text-align: center;
+        opacity: .5;
 }
 /*
 #chapter {
