@@ -11,10 +11,10 @@ body {
 
 #map {
     /*height: 100vh;*/
-    height: 200px;/*added*/
+    height: 35vh;/*added*/
     width: 100vw;/*width: 70vw;*/    
     position: absolute;
-    border-bottom: 3px solid orange;/*added*/
+    /*border-bottom: 3px solid orange;*//*added*/
     top: 0; /*added*/
     left: 0;
     z-index: 1;
@@ -22,10 +22,10 @@ body {
 
 #narration {
     position: absolute;
-    top: 203px;/*added*/
+    top: 35vh;/*added*/
     width: 100vw;/*added*/
     /*width: 30vw;*/
-    height: calc(100vh - 203px);/*added*/
+    height: 65vh/*calc(100vh - 203px);*//*added*/
     /*height: 100vh;*/
     /*min-width: 300px;*/
     /*right: 0px;*/
