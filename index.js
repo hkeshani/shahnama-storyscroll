@@ -99,7 +99,7 @@
 
         imgHolder.append(image);
 
-        container.append(chapter).append(imgHolder).append(source).append(description);
+        container.append(chapter).append(description).append(imgHolder).append(source);
         $('#contents').append(container);
 
         var i;
