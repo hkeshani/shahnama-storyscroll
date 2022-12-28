@@ -6,9 +6,13 @@
   var scrollPosition = 0;
 
   $('div#contents').scroll(function() {
-    scrollPosition = $(this).scrollTop();$('.title-text').css({'opacity':(( 1000-scroll )/1000)});
+    scrollPosition = $(this).scrollTop();
   });
-
+ 
+  $('div#contents').scroll(function() {    
+            $('.title-text').css({'opacity':(( 1000-scroll )/1000)});
+        });
+  
   function init (mapid) {
     var minZoom = 2
     var maxZoom = 4
