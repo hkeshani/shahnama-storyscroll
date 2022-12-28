@@ -10,7 +10,7 @@
   });
  
   $('div#contents').scroll(function() {    
-            $('.title-text').css({'opacity':(( 1000-scrollPosition )/1000)});
+            $('.title-text').css({'opacity':(( 100-scrollPosition )/100)});
         });
   
   function init (mapid) {
