@@ -28,6 +28,8 @@
       //zoom: 1,
       //scrollWheelZoom: false,
       //
+      zoomControl: false,
+      attributionControl: false,
       minZoom: minZoom,
       maxZoom: maxZoom
     })
