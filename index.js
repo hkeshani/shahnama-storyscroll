@@ -40,7 +40,8 @@
     //map.setView(rc.unproject([2466, 3513]), 1)
 
     // add layer control object
-    L.control.layers({}, {
+    //var types = ['Markers'];//
+    var layerControl = L.control.layers({}, {
       //'Markers': layer(map, rc)
       //'Polygon': layerPolygon(map, rc),
       //'Points of Interest': layerCountries(map, rc),
@@ -71,6 +72,7 @@
           markerColor: 'blue'
         });
         layer.setIcon(numericMarker);
+        layerControl.addOverlay(geojson, numericMarker);//
 
         // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
         var chapter = $('<p></p>', {
