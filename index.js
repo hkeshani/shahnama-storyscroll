@@ -72,7 +72,7 @@
           markerColor: 'blue'
         });
         layer.setIcon(numericMarker);
-        layerControl.addOverlay(geojson, numericMarker);//
+        //layerControl.addOverlay(geojson, numericMarker);//
 
         // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
         var chapter = $('<p></p>', {
