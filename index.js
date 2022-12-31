@@ -41,7 +41,7 @@
 
     // add layer control object
     L.control.layers({}, {
-      'Markers': numericMarker(map, rc)
+      'Markers': layer(map, rc)
       //'Polygon': layerPolygon(map, rc),
       //'Points of Interest': layerCountries(map, rc),
       //'Bounds': layerBounds(map, rc, img),
