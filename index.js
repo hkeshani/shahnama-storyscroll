@@ -38,15 +38,16 @@
 
     // set the view on a marker ...
     //map.setView(rc.unproject([2466, 3513]), 1)
-/*
+
     // add layer control object
     L.control.layers({}, {
+      'Markers': numericMarker(map, rc)
       //'Polygon': layerPolygon(map, rc),
       //'Points of Interest': layerCountries(map, rc),
-      'Bounds': layerBounds(map, rc, img),
+      //'Bounds': layerBounds(map, rc, img),
       //'Info': layerGeo(map, rc)
     }).addTo(map)
-*/
+
     // the tile layer containing the image generated with gdal2tiles --leaflet ...
     // Look into line 49
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
