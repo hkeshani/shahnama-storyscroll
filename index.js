@@ -38,27 +38,23 @@
 
     // set the view on a marker ...
     //map.setView(rc.unproject([2466, 3513]), 1)
-    // create layer for markers
-    //let mylayer = L.layerGroup().addTo( map )
+    
+
 
     
-    // add layer control object
-    //var types = ['Markers'];//
-    var layerControl = L.control.layers({}, {
-      //'Markers': numericMarker
-      //'Polygon': layerPolygon(map, rc),
-      //'Points of Interest': layerCountries(map, rc),
-      //'Bounds': layerBounds(map, rc, img),
-      //'Info': layerGeo(map, rc)
-    }).addTo(map)
 
-    // the tile layer containing the image generated with gdal2tiles --leaflet ...
+
+    // add the tile layer containing the image generated with gdal2tiles --leaflet ...
     // Look into line 49
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
       noWrap: true,
     // attribution: '<a href="<https://www.loc.gov/resource/g3200.mf000070/>"Library of Congress</a>'
     }).addTo(map)
 
+    // create layer for markers
+    var markersLayer = L.layerGroup().addTo( map )
+    
+    //fill tile layer with data from a geojson file
   $.getJSON('map.geojson', function(data) {
   var geojson = L.geoJson(data, {
     // correctly map the geojson coordinates on the image
@@ -75,8 +71,18 @@
           markerColor: 'blue'
         });
         layer.setIcon(numericMarker);
-        //layerControl.addOverlay(geojson, numericMarker);//
+        markersLayer.addLayer( layer );
 
+     // add layer control object
+    var layerControl = L.control.layers({}, {
+      'Markers': markersLayer
+      //'Polygon': layerPolygon(map, rc),
+      //'Points of Interest': layerCountries(map, rc),
+      //'Bounds': layerBounds(map, rc, img),
+      //'Info': layerGeo(map, rc)
+    }).addTo(map)       
+         
+        
         // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
         var chapter = $('<p></p>', {
           text: feature.properties['chapter'],
