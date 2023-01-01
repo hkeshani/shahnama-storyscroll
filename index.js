@@ -39,9 +39,14 @@
     // set the view on a marker ...
     //map.setView(rc.unproject([2466, 3513]), 1)
     
-
-
-    
+     // add layer control object
+    var layerControl = L.control.layers({}, {
+      'Markers': markersLayer
+      //'Polygon': layerPolygon(map, rc),
+      //'Points of Interest': layerCountries(map, rc),
+      //'Bounds': layerBounds(map, rc, img),
+      //'Info': layerGeo(map, rc)
+    }).addTo(map)       
 
 
     // add the tile layer containing the image generated with gdal2tiles --leaflet ...
@@ -73,14 +78,7 @@
         layer.setIcon(numericMarker);
         markersLayer.addLayer( layer );
 
-     // add layer control object
-    var layerControl = L.control.layers({}, {
-      'Markers': markersLayer
-      //'Polygon': layerPolygon(map, rc),
-      //'Points of Interest': layerCountries(map, rc),
-      //'Bounds': layerBounds(map, rc, img),
-      //'Info': layerGeo(map, rc)
-    }).addTo(map)       
+
          
         
         // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
