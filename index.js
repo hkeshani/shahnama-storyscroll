@@ -73,8 +73,9 @@
       },
 
       // add layer control object
-    var layerControl = L.control.layers({}, {
-      'Markers': markersLayer
+    //var layerControl = 
+      L.control.layers({}, {
+       'Markers': markersLayer
       //'Polygon': layerPolygon(map, rc),
       //'Points of Interest': layerCountries(map, rc),
       //'Bounds': layerBounds(map, rc, img),
