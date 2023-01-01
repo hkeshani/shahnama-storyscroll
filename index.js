@@ -80,7 +80,7 @@
       //'Points of Interest': layerCountries(map, rc),
       //'Bounds': layerBounds(map, rc, img),
       //'Info': layerGeo(map, rc)
-    }).addTo(map); 
+    }).addTo( map ); 
          
         
         // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
