@@ -72,15 +72,7 @@
         markersLayer.addLayer( layer )
       },
 
-      // add layer control object
-    //var layerControl = 
-      L.control.layers({}, {
-       'Markers': markersLayer
-      //'Polygon': layerPolygon(map, rc),
-      //'Points of Interest': layerCountries(map, rc),
-      //'Bounds': layerBounds(map, rc, img),
-      //'Info': layerGeo(map, rc)
-    }).addTo( map ); 
+
          
         
         // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
