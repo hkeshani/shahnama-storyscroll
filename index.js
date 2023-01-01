@@ -69,8 +69,8 @@
           markerColor: 'blue'
         });
         layer.setIcon(numericMarker);
-        markersLayer.addLayer( layer )
-      },
+        markersLayer.addLayer( layer );
+
 
 
          
