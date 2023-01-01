@@ -38,11 +38,14 @@
 
     // set the view on a marker ...
     //map.setView(rc.unproject([2466, 3513]), 1)
+    // create layer for markers
+    //let mylayer = L.layerGroup().addTo( map )
 
+    
     // add layer control object
     //var types = ['Markers'];//
     var layerControl = L.control.layers({}, {
-      //'Markers': layer(map, rc)
+      'Markers': numericMarker
       //'Polygon': layerPolygon(map, rc),
       //'Points of Interest': layerCountries(map, rc),
       //'Bounds': layerBounds(map, rc, img),
