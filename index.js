@@ -17,16 +17,16 @@
     var minZoom = 1
     var maxZoom = 5
     var img = [
-      9864,/*4932*/
-      14052/*7026*/
+      4932,
+      7026
     ]
 
     // create the map
     var map = L.map(mapid, {
       //added from storymap
       //center: [2466, 3513],
-      //zoom: 1,
-      //scrollWheelZoom: false,
+      zoom: 5,
+      scrollWheelZoom: true,
       zoomControl: true,//hides +- zoom control; css used to hide on mobile but reveal on desktop 
       attributionControl: false,//hides attribution control
       minZoom: minZoom,
