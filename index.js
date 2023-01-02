@@ -14,8 +14,8 @@
         });
   
   function init (mapid) {
-    var minZoom = 2
-    var maxZoom = 4
+    var minZoom = 0
+    var maxZoom = 5
     var img = [
       4932,
       7026
