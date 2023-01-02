@@ -14,11 +14,11 @@
         });
   
   function init (mapid) {
-    var minZoom = 0
+    var minZoom = 1
     var maxZoom = 5
     var img = [
-      4932,
-      7026
+      9864,/*4932*/
+      14052/*7026*/
     ]
 
     // create the map
@@ -27,7 +27,7 @@
       //center: [2466, 3513],
       //zoom: 1,
       //scrollWheelZoom: false,
-      zoomControl: true,//hides +- zoom control
+      zoomControl: true,//hides +- zoom control; css used to hide on mobile but reveal on desktop 
       attributionControl: false,//hides attribution control
       minZoom: minZoom,
       maxZoom: maxZoom
