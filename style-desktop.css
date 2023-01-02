@@ -23,10 +23,11 @@
     top: 0;
     right: 0;/*added*/
   }
-/*
-  .leaflet-control-container {
-     visibility: visible;  
-*/  
+  
+  .leaflet-control-zoom {
+     visibility: visible;
+  }
+  
 /*
   .leaflet-control-attribution {
     visibility: visible;
