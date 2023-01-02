@@ -154,8 +154,8 @@ body {
 }
 
 .outFocus {
-    opacity: 0.8;
-    background-color: white;
+    opacity: 1.0;
+    background-color: #f0f0f0;
 }
 /*
 @media only screen and (max-device-width: 480px) {
