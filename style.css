@@ -131,7 +131,7 @@ body {
 .chapter-header {
     display: block;
     text-align: center;
-    font-size: 120%;
+    font-size: 16pt;
     padding: 0 5px;
     font-weight: 700;
 }
