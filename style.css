@@ -32,7 +32,7 @@ body {
     /*overflow: auto;*/
     /*z-index: 99;*/
     z-index: 80;/*added*/
-    background: rgba(254,254,254, .8); /* to apply opacity background only. */
+    background: rgba(254,254,254, .2); /* to apply opacity background only. */
 }
 
 #contents {
