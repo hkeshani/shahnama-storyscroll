@@ -27,7 +27,7 @@
       //center: [2466, 3513],
       //zoom: 1,
       //scrollWheelZoom: false,
-      zoomControl: false,//hides +- zoom control
+      zoomControl: true,//hides +- zoom control
       attributionControl: false,//hides attribution control
       minZoom: minZoom,
       maxZoom: maxZoom
