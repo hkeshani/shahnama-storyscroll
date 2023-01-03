@@ -25,7 +25,7 @@
     var map = L.map(mapid, {
       //added from storymap
       //center: [2466, 3513],
-      setZoom: 5,
+      //setZoom: 5,
       scrollWheelZoom: true,
       zoomControl: true,//hides +- zoom control; css used to hide on mobile but reveal on desktop 
       attributionControl: false,//hides attribution control
