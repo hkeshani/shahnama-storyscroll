@@ -62,7 +62,7 @@ gdal2tiles.py -l -p raster -z 0-5 -w none <image> <tilesdir>
 >] (NOT SURE IF STEP IS NECESSARY)
 
 ## 3. Change storyscroll content, image marker coordinates, and zoom level
-Edit the map.geoson  file (https://github.com/hkeshani/shahnama-storyscroll/blob/master/map.geojson?short_path=12daef8).
+Edit the map.geoson file (https://github.com/hkeshani/shahnama-storyscroll/blob/master/map.geojson?short_path=12daef8).
 
 ## Credits
 
