@@ -8,10 +8,14 @@
   $('div#contents').scroll(function() {
     scrollPosition = $(this).scrollTop();
   });
-
+ 
+  $('div#contents').scroll(function() {    
+            $('.title-text').css({'opacity':(( 100-scrollPosition )/100)});
+        });
+  
   function init (mapid) {
-    var minZoom = 2
-    var maxZoom = 4
+    var minZoom = 1
+    var maxZoom = 5
     var img = [
       4932,
       7026
@@ -21,9 +25,10 @@
     var map = L.map(mapid, {
       //added from storymap
       //center: [2466, 3513],
-      //zoom: 1,
-      //scrollWheelZoom: false,
-      //
+      //setZoom: 5,
+      scrollWheelZoom: true,
+      zoomControl: true,//hides +- zoom control; css used to hide on mobile but reveal on desktop 
+      attributionControl: false,//hides attribution control
       minZoom: minZoom,
       maxZoom: maxZoom
     })
@@ -32,23 +37,22 @@
     var rc = new L.RasterCoords(map, img)
 
     // set the view on a marker ...
-    //map.setView(rc.unproject([2466, 3513]), 1)
-/*
-    // add layer control object
-    L.control.layers({}, {
-      //'Polygon': layerPolygon(map, rc),
-      //'Points of Interest': layerCountries(map, rc),
-      'Bounds': layerBounds(map, rc, img),
-      //'Info': layerGeo(map, rc)
-    }).addTo(map)
-*/
-    // the tile layer containing the image generated with gdal2tiles --leaflet ...
+    //map.setView(rc.unproject([2466, 3513]), 4)
+    
+     
+
+
+    // add the tile layer containing the image generated with gdal2tiles --leaflet ...
     // Look into line 49
     L.tileLayer('./tiles/{z}/{x}/{y}.png', {
       noWrap: true,
     // attribution: '<a href="<https://www.loc.gov/resource/g3200.mf000070/>"Library of Congress</a>'
     }).addTo(map)
 
+    // create layer for markers
+    var markersLayer = L.layerGroup().addTo( map )
+    
+    //fill tile layer with data from a geojson file
   $.getJSON('map.geojson', function(data) {
   var geojson = L.geoJson(data, {
     // correctly map the geojson coordinates on the image
@@ -65,7 +69,12 @@
           markerColor: 'blue'
         });
         layer.setIcon(numericMarker);
+        markersLayer.addLayer( layer );
 
+
+
+     
+        
         // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
         var chapter = $('<p></p>', {
           text: feature.properties['chapter'],
@@ -99,7 +108,7 @@
 
         imgHolder.append(image);
 
-        container.append(chapter).append(imgHolder).append(source).append(description);
+        container.append(chapter).append(description).append(imgHolder).append(source);
         $('#contents').append(container);
 
         var i;
@@ -135,6 +144,16 @@
     }
   });
 
+           // add layer control object
+    //var layerControl = 
+      L.control.layers({}, {
+       'Markers': markersLayer
+      //'Polygon': layerPolygon(map, rc),
+      //'Points of Interest': layerCountries(map, rc),
+      //'Bounds': layerBounds(map, rc, img),
+      //'Info': layerGeo(map, rc)
+    }).addTo( map );    
+    
   $('div#container1').addClass("inFocus");
   $('#contents').append("<div class='space-at-the-bottom'><a href='#space-at-the-top'><i class='fa fa-chevron-up'></i></br><small>Top</small></a></div>");
   map.fitBounds(geojson.getBounds());
