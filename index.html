@@ -23,6 +23,8 @@
       <!-- Storyscroll Heading-->
       <h2>Title of Scene</h2>
         <small>Scroll <i class="fa fa-chevron-down"></i></small>
+        <button onclick="hideFunction()">Hide/Show</button>
+        <br><br>
     </div>
     <div id="narration">
       <div id="contents">
@@ -30,6 +32,16 @@
       </div>
     </div>
     <div id="map"></div>
+    <script>
+      function hideFunction() {//used for hide/show button on narration section
+        var x = document.getElementById("narration");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+     </script>
     <script src="rastercoords.js"></script>
     <script src="index.js"></script>
   </body>
